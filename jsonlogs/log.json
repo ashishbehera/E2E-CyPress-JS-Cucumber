@@ -1,0 +1,164 @@
+[
+  {
+    "description": "    User wants to login into Demo Store",
+    "elements": [
+      {
+        "description": "",
+        "id": "demo-store-login;successfully-login-into-demo-store;;2",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Successfully Login into Demo Store",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User navigate to Demo Store Login URL",
+            "result": {
+              "duration": 551000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enters email address \"admin@yourstore.com\"",
+            "result": {
+              "duration": 412000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters password \"admin\"",
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks on submit button",
+            "result": {
+              "duration": 3110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User logged in into Demo store",
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 5,
+            "name": "@demo"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "demo-store-login;unbale-to-login-into-demo-store;;2",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Unbale to Login into Demo Store",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User navigate to Demo Store Login URL",
+            "result": {
+              "duration": 503000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 20,
+            "name": "User enters email address \"admin@yourstore.com\"",
+            "result": {
+              "duration": 457000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 21,
+            "name": "User enters password \"test\"",
+            "result": {
+              "duration": 268000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 22,
+            "name": "User clicks on submit button",
+            "result": {
+              "duration": 324000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User is unable to logged in into Demo store",
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 17,
+            "name": "@demo"
+          }
+        ]
+      }
+    ],
+    "id": "demo-store-login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Demo Store Login",
+    "uri": "cypress/e2e/features/storeLogin.feature"
+  }
+]
