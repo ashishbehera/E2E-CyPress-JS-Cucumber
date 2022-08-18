@@ -5,7 +5,7 @@ import {
     Then,
   } from "@badeball/cypress-cucumber-preprocessor";
 
-  import LoginPage from '../PageObjects/LoginPage'
+  import LoginPage from '../../e2e/PageObjects/LoginPage'
   const lp = new LoginPage();
   
   Given("User navigate to Demo Store Login URL", () => {
