@@ -7,7 +7,7 @@ var datetime = currentdate.getDate() + "-" + (currentdate.getMonth() + 1)
 
 report.generate({
   jsonDir: "jsonlogs", // ** Path of .json file **//
-  reportPath: "./reports/cucumber-html-report"+"_"+datetime,
+  reportPath: "./reports",
   metadata: {
     browser: {
       name: "chrome",
